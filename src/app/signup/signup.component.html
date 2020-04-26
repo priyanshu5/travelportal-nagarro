@@ -1,0 +1,109 @@
+<h2>SignUp form</h2>  
+  
+<form [formGroup]="form" #AdminInformation (ngSubmit)="AdminForm(AdminInformation)">  
+  
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="firstName"> First Name </label>  
+        <input formControlName="firstName" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="lastName"> Last Name </label>  
+        <input formControlName="lastName" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="bussinessUnit"> Bussiness Unit </label>  
+        <input formControlName="bussinessUnit" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="title"> Title </label>  
+        <input formControlName="title" class="form-control" type="text">   
+    </div>  
+  </div>  
+  
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="email"> Email </label>  
+        <input formControlName="email" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="telephone"> Telephone </label>  
+        <input formControlName="telephone" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="address1"> Address1 </label>  
+        <input formControlName="address1" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="address2"> Address2 </label>  
+        <input formControlName="address2" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="city"> City </label>  
+        <input formControlName="city" class="form-control" type="text">   
+    </div>  
+  </div> 
+  
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="state"> State </label>  
+        <input formControlName="state" class="form-control" type="text">   
+    </div>  
+  </div> 
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="zip"> Zip </label>  
+        <input formControlName="zip" class="form-control" type="text">   
+    </div>  
+  </div>  
+
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="country"> Country </label>  
+        <input formControlName="country" class="form-control" type="text">   
+    </div>  
+  </div>  
+  
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="password"> Password </label>  
+        <input formControlName="password" class="form-control" type="password">   
+    </div>  
+  </div>  
+  
+  <div class="row">  
+    <div class=" col-md-offset-1 col-md-4">  
+        <label for="confirmPassword"> Confirm Password </label>  
+        <input formControlName="confirmPassword" class="form-control" type="password">   
+    </div>  
+  </div>   
+  
+  <div class="row" style="margin-top: 40px;">  
+    <div class="col-md-offset-1 col-md-4">  
+        <button class="btn btn-md btn-primary btn-style"  >Save</button>  
+    </div>  
+  </div>  
+  
+</form>  
